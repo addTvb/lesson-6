@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Адаптивная верстка</title>
+	</head>
+	<body>
+		<main>
+			<section class="card-wrapper">
+				<div class="card">
+					<div class="card__left">
+						<!-- Picture tag -->
+						<picture>
+							<source srcset="img/desktop.jpg" media="(min-width: 400px)" />
+							<source srcset="img/mobile.jpg" media="(max-width: 400px)" />
+							<img src="img/desktop.jpg" alt="iPhone" />
+						</picture>
+						<!-- ##### -->
+					</div>
+					<div class="card__right">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et diam
+						tortor elit est sed eget nulla eget. Diam cras amet, sit elementum
+						eleifend amet amet purus.
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card__left">
+						<picture>
+							<source srcset="img/desktop.jpg" media="(min-width: 400px)" />
+							<source srcset="img/mobile.jpg" media="(max-width: 400px)" />
+							<img src="img/desktop.jpg" alt="iPhone" />
+						</picture>
+					</div>
+					<div class="card__right">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et diam
+						tortor elit est sed eget nulla eget. Diam cras amet, sit elementum
+						eleifend amet amet purus.
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
